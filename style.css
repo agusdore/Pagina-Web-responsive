@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+@font-face {
+    font-family: 'Work sans' !important;
+    src: url(../ejerciciogrid/fuente/WorkSans-Regular.ttf);
+}
+
+body {
+    height: auto;
+    width: auto;
+}
+header {
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(45deg, #ffffff 10%, #aebbc4 18%, #26323a 29%, #696969 44%, #2a3841 64%, #a2a6a8 74%,#d4d4d4 88%,#ffffff 100%);
+    padding: 20px;    
+}
+nav {
+    text-align: center;
+}
+nav a {
+    text-align: center;
+}
+ol{
+    flex-direction:column;
+}
+
+#titulo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: .1fr 2.75fr;
+        grid-template-rows: auto;
+}
+
+#titulo img{
+    width: 30px;
+    height:30px;  
+}
+#titulo h1 {
+    line-height: 35px;
+    font-family: 'Work sans';
+}
+
+header nav {
+    font-family: 'Work sans';
+}
+.titulouno{
+    height: 50px;
+    font-family: 'Work sans';
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f4f8f8;
+}
+.card-img-top{
+    max-width: 100%; 
+	height: 100%; 
+} 
+h2 {
+    background-image: linear-gradient(45deg, #252424 10%, #3d3e3f 18%, #ffffff 29%, #221f1f 44%, #2a3841 64%, #a2a6a8 74%,#d4d4d4 88%,#ffffff 100%);
+    margin-top: 10px;
+    color:white;
+}
+.card-link{
+    color: white;
+    background-color: #26323a;
+    text-decoration: none;
+}
+
+.card body a:hover{
+    background-color: white;
+    color:black;
+}
+div.row{
+    grid-template-columns: 50%;
+
+}
+    
+.immg {
+    height: 200px;
+    float:left;
+}
+.titulotop{
+    text-align: justify;
+    background-color: white;
+}
+.puntuacion {
+    color: rgb(209, 50, 230);
+    text-align: center;
+}
+.duracion {
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+.p {
+    margin-top: 15px;
+    font-family: 'Work sans' !important;
+    height: 200px;
+}
+section, .sucursal{
+    background-image: linear-gradient(45deg, #ffffff 10%, #aebbc4 18%, #6e7172 29%, #d1d1d1 44%, #e9e9e9 64%, #a2a6a8 74%,#d4d4d4 88%,#ffffff 100%);
+    margin-top:unset;
+    text-align: center;
+    height: auto;
+    width: auto;
+    font-family: "Work sans" !important;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+aside {
+    width: 50%;
+    height: 50%;
+    margin-top: 0px;
+    background-image: linear-gradient(45deg, #ffffff 10%, #aebbc4 18%, #6e7172 29%, #d1d1d1 44%, #e9e9e9 64%, #a2a6a8 74%,#d4d4d4 88%,#ffffff 100%);
+    background-size:contain;
+}
+section h4 {
+    font-size: 25px;
+    margin-top: auto;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
+}
+section ul {
+    line-height: 20px;
+}
+section a {
+    font-size: 20px;
+
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sucursal {
+    margin-top: 30%;
+}
+.tamaño {
+    width:35px;
+    height: 35px;
+}
+footer div {
+    padding: 10px;
+    background-image:  linear-gradient(45deg, #ffffff 10%, #aebbc4 18%, #26323a 29%, #26333a 44%, #2a3841 64%, #a2a6a8 74%,#d4d4d4 88%,#ffffff 100%);
+    background-size: cover;
+}
+footer ul {
+    text-align:center;
+}
+footer li {
+    display: inline-block;
+}
+@media (max-width: 767px) {
+    aside{
+      display: none;
+    }
+    header{
+
+        width: 100%;
+
+    }
+    nav{
+
+        width: 100%;
+    }
+
+}
+@media (min-width: 768px) {
+    aside{
+      display: block;
+    }
+    
+}
